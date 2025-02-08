@@ -40,21 +40,17 @@ LOG_FILE=server.log
 EMAIL_LIMIT_PER_HOUR=5
 EMAIL_COOLDOWN=1
 
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
-SMTP_USERNAME=your_email@gmail.com
-SMTP_PASSWORD=your_app_password
-
-FROM_EMAIL=your_email@gmail.com
-
 PORT=8080
 ENV=dev
 ```
+
+
 
 ### Run Server
 ```bash
 go run main.go
 ```
+
 
 
 Your server will be running at **http://localhost:8080**.
